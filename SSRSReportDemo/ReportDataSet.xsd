@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportDataSet" targetNamespace="http://tempuri.org/ReportDataSet.xsd" xmlns:mstns="http://tempuri.org/ReportDataSet.xsd" xmlns="http://tempuri.org/ReportDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="ReportDataSet" msprop:Generator_UserDSName="ReportDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="GeneralInfoDataTable" msprop:Generator_TableClassName="GeneralInfoDataTableDataTable" msprop:Generator_TableVarName="tableGeneralInfoDataTable" msprop:Generator_TablePropName="GeneralInfoDataTable" msprop:Generator_RowDeletingName="GeneralInfoDataTableRowDeleting" msprop:Generator_RowChangingName="GeneralInfoDataTableRowChanging" msprop:Generator_RowEvHandlerName="GeneralInfoDataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="GeneralInfoDataTableRowDeleted" msprop:Generator_UserTableName="GeneralInfoDataTable" msprop:Generator_RowChangedName="GeneralInfoDataTableRowChanged" msprop:Generator_RowEvArgName="GeneralInfoDataTableRowChangeEvent" msprop:Generator_RowClassName="GeneralInfoDataTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ReportName" msprop:Generator_ColumnVarNameInTable="columnReportName" msprop:Generator_ColumnPropNameInRow="ReportName" msprop:Generator_ColumnPropNameInTable="ReportNameColumn" msprop:Generator_UserColumnName="ReportName" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedBy" msprop:Generator_ColumnVarNameInTable="columnCreatedBy" msprop:Generator_ColumnPropNameInRow="CreatedBy" msprop:Generator_ColumnPropNameInTable="CreatedByColumn" msprop:Generator_UserColumnName="CreatedBy" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedTime" msprop:Generator_ColumnVarNameInTable="columnCreatedTime" msprop:Generator_ColumnPropNameInRow="CreatedTime" msprop:Generator_ColumnPropNameInTable="CreatedTimeColumn" msprop:Generator_UserColumnName="CreatedTime" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ActivityDataTable" msprop:Generator_TableClassName="ActivityDataTableDataTable" msprop:Generator_TableVarName="tableActivityDataTable" msprop:Generator_TablePropName="ActivityDataTable" msprop:Generator_RowDeletingName="ActivityDataTableRowDeleting" msprop:Generator_RowChangingName="ActivityDataTableRowChanging" msprop:Generator_RowEvHandlerName="ActivityDataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="ActivityDataTableRowDeleted" msprop:Generator_UserTableName="ActivityDataTable" msprop:Generator_RowChangedName="ActivityDataTableRowChanged" msprop:Generator_RowEvArgName="ActivityDataTableRowChangeEvent" msprop:Generator_RowClassName="ActivityDataTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UnitId" msprop:Generator_ColumnVarNameInTable="columnUnitId" msprop:Generator_ColumnPropNameInRow="UnitId" msprop:Generator_ColumnPropNameInTable="UnitIdColumn" msprop:Generator_UserColumnName="UnitId" type="xs:string" minOccurs="0" />
+              <xs:element name="ActivityType" msprop:Generator_ColumnVarNameInTable="columnActivityType" msprop:Generator_ColumnPropNameInRow="ActivityType" msprop:Generator_ColumnPropNameInTable="ActivityTypeColumn" msprop:Generator_UserColumnName="ActivityType" type="xs:string" minOccurs="0" />
+              <xs:element name="ActivityName" msprop:Generator_ColumnVarNameInTable="columnActivityName" msprop:Generator_ColumnPropNameInRow="ActivityName" msprop:Generator_ColumnPropNameInTable="ActivityNameColumn" msprop:Generator_UserColumnName="ActivityName" type="xs:string" minOccurs="0" />
+              <xs:element name="StartDate" msprop:Generator_ColumnVarNameInTable="columnStartDate" msprop:Generator_ColumnPropNameInRow="StartDate" msprop:Generator_ColumnPropNameInTable="StartDateColumn" msprop:Generator_UserColumnName="StartDate" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UnitDataTable" msprop:Generator_TableClassName="UnitDataTableDataTable" msprop:Generator_TableVarName="tableUnitDataTable" msprop:Generator_TablePropName="UnitDataTable" msprop:Generator_RowDeletingName="UnitDataTableRowDeleting" msprop:Generator_RowChangingName="UnitDataTableRowChanging" msprop:Generator_RowEvHandlerName="UnitDataTableRowChangeEventHandler" msprop:Generator_RowDeletedName="UnitDataTableRowDeleted" msprop:Generator_UserTableName="UnitDataTable" msprop:Generator_RowChangedName="UnitDataTableRowChanged" msprop:Generator_RowEvArgName="UnitDataTableRowChangeEvent" msprop:Generator_RowClassName="UnitDataTableRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="UnitName" msprop:Generator_ColumnVarNameInTable="columnUnitName" msprop:Generator_ColumnPropNameInRow="UnitName" msprop:Generator_ColumnPropNameInTable="UnitNameColumn" msprop:Generator_UserColumnName="UnitName" type="xs:string" minOccurs="0" />
+              <xs:element name="UnitId" msprop:Generator_ColumnVarNameInTable="columnUnitId" msprop:Generator_ColumnPropNameInRow="UnitId" msprop:Generator_ColumnPropNameInTable="UnitIdColumn" msprop:Generator_UserColumnName="UnitId" type="xs:string" minOccurs="0" />
+              <xs:element name="Area" msprop:Generator_ColumnVarNameInTable="columnArea" msprop:Generator_ColumnPropNameInRow="Area" msprop:Generator_ColumnPropNameInTable="AreaColumn" msprop:Generator_UserColumnName="Area" type="xs:string" minOccurs="0" />
+              <xs:element name="CreatedBy" msprop:Generator_ColumnVarNameInTable="columnCreatedBy" msprop:Generator_ColumnPropNameInRow="CreatedBy" msprop:Generator_ColumnPropNameInTable="CreatedByColumn" msprop:Generator_UserColumnName="CreatedBy" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
